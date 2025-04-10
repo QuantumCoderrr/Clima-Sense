@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="A weather detection site that provides real-time weather updates for any city.">
+    <meta name="keywords" content="weather, weather detection, city weather, real-time weather, weather API">
+    <meta name="author" content="Sandip Ghosh">
+    <link rel="icon" href="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDIxfHx3ZWF0aGVyfGVufDB8fHx8MTY5MTY0NzE0MA&ixlib=rb-4.0.3&q=80&w=1080" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <title>Clima-Sense</title>
+    </head>
+<body>
+
+    <div class="title">
+        <h1>CLIMA-SENSE</h1>
+        <p>Precision Forecasting at Your Fingertips</p>
+    </div>
+
+    <div class="container">
+        <h2>Weather</h2>
+        <div class="weather">
+            <input type="text" id="cityInput" placeholder="Enter city name">
+            <button id="getWeatherBtn">Get Weather</button>
+            <div id="weatherResult" class="hidden">
+                <h3 id="cityName"></h3>
+                <p id="weatherCondition"></p>
+                <p id="temperature"></p>
+                <p id="humidity"></p>
+            </div>
+        </div>
+    </div>
+  </body>
+</html>
